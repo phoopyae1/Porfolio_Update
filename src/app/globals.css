@@ -25,13 +25,8 @@ a{
 }
 
 .container{
-  width: 1536px;
-  min-height: 100vh;
   margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
 }
