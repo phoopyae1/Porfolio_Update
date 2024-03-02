@@ -61,9 +61,9 @@ const Links = () => {
 
                 {
                     open && (
-                        <div className=" w-screen h-100vh flex top-0">
+                        <div className="absolute mt-[20rem] bg-[#e3e3e3] right-0 h-[100vh-100px] w-1/4 z-10 flex flex-col items-center gap-11 ">
                             {links.map((link) => (
-                                <a href={link.path} key={link.name} className="lg:hidden flex flex-col absolute right-0">{link.name}</a>))}
+                                <a href={link.path} key={link.name} >{link.name}</a>))}
                         </div>
                     )}
             </div>
