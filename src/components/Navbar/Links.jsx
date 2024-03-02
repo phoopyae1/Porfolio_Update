@@ -61,7 +61,7 @@ const Links = () => {
 
                 {
                     open && (
-                        <div className="absolute mt-[20rem] bg-[#e3e3e3] right-0 h-[100vh-100px] w-1/4 z-10 flex flex-col items-center gap-11 ">
+                        <div className="lg:hidden rounded-md absolute mt-[20rem] pb-10 bg-[#e3e3e3] right-0  w-1/4 z-10 flex flex-col items-center gap-11 shadow-md">
                             {links.map((link) => (
                                 <a href={link.path} key={link.name} >{link.name}</a>))}
                         </div>
