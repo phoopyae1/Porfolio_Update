@@ -36,8 +36,8 @@ const Links = () => {
         }
     ]
     return (
-        <div className="sm:flex  flex flex-row justify-between mt-5 items-center m-0 ">
-            <div className="font-bold text-[2rem]">
+        <div className="sm:flex  flex flex-row justify-between mt-5 items-center m-0 p-8 lg:pt-0 lg:pl-10 lg:pr-1">
+            <div className="font-bold text-[2.2rem]">
                 <h1>Porfolio</h1>
             </div>
             <div className="hidden lg:w-[18rem] lg:flex lg:justify-between lg:items-center sm:justify-end ">

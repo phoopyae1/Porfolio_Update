@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Aboutme = () => {
   return (
-    <div className=" h-[40rem] flex lg:flex-row lg:items-center flex-col">
+    <div className=" h-[40rem] flex lg:flex-row lg:items-center flex-col p-8 lg:pt-0 lg:pl-10 lg:pr-1">
       <div className="lg:w-[40%]">
-        <Image src="/phoo2.png" width={600} height={600} alt="photos" className="lg:absolute lg:left-0 lg:top-20 lg:z-10"></Image>
-        <Image src="/bg.png" width={600} height={600} alt="photos" className="hidden lg:block lg:absolute lg:left-0 lg:top-20 lg:z-0"></Image>
+        <Image src="/phoo2.png" width={600} height={600} alt="photos" className="lg:absolute  md:absolute md:ml-11  md:w-[26rem] md:mt-[6rem] lg:left-0 lg:top-20 lg:z-10"></Image>
+        <Image src="/bg.png" width={600} height={600} alt="photos" className="hidden md:absolute  md:mt-[2rem] md:w-[30rem] lg:block lg:absolute lg:left-0 lg:top-20 lg:z-0"></Image>
       </div>
       <div className="flex flex-col lg:w-[60%]">
         <h1 className="flex text-[2.5rem] md-text-[1rem] ">Crafting digital experiences, one line at a time.</h1>
