@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Skill 1",
+    "image": "/React-icon.svg.png",
+    "description": "Description 1"
+  },
+  {
+    "id": 2,
+    "name": "Skill 2",
+    "image":{
+        "first image":"/React-icon.svg.png",
+        "secong image":"/next-js.svg"
+    },
+    "description": "Description 2"
+  },
+  {
+    "id": 3,
+    "name": "Skill 3",
+    "image": "/next-js.svg",
+    "description": "Description 3"
+  },
+  {
+    "id": 4,
+    "name": "Skill 4",
+    "image": "/React-icon.svg.png",
+    "description": "Description 4"
+  }
+]

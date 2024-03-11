@@ -17,6 +17,7 @@
 }
 body{
   color:var(--text);
+
 }
 a{
   text-decoration: none;
@@ -24,7 +25,7 @@ a{
 }
 
 .container{
-  margin: auto;
+  margin: 300px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
