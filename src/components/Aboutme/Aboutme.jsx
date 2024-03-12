@@ -6,9 +6,6 @@ const Aboutme = () => {
       <div className=" sm:flex sm:flex-col  md:flex md:flex-row md:mt-9 lg:flex-row lg:h-[40rem] lg:flex lg:items-center mb-[5rem]">
         <div className=" sm:w-screen  md:flex md:justify-content md:w-[60%]  lg:w-[55%]  ">
           <Image src="/Phoo.png" width={1000} height={800} alt="photos" className="sm:w-screen  md:w-[100%] md:h-[20rem] lg:flex lg:w-full lg:h-[45rem] lg:z-10 lg:mt-[-20rem]"></Image>
-          {/* <div className="hidden lg:block md:block md:w-[30rem] md:absolute md:left-0 md:top-[10rem]">
-          <Image src="/bg.png" width={600} height={600} alt="photos" className=""></Image>
-        </div> */}
         </div>
         <div className=" sm:flex sm:flex-col sm:w-screen  md:flex md:w-[70%] md:flex-col lg:flex lg:flex-col  lg:w-[45%] lg:ml-2 ">
           <h1 className="flex text-[2.5rem] md-text-[1rem] ">Crafting digital experiences, one line at a time.</h1>

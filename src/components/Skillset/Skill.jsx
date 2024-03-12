@@ -5,7 +5,7 @@ const Skill = () => {
     const card = data.skillset;
 
     return (
-        <div className='bg-[#Fbfbfb]'>
+        <div className='bg-[#F5f5f5]'>
             <div className="lg:p-0  mt-[2px] mr-[60px] ml-[60px] mb-[10rem]">
                 <div>
                     <h1 className="text-[1.9rem] font-bold mt-20">Skill-Sets</h1>
