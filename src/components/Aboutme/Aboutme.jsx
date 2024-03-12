@@ -5,7 +5,7 @@ const Aboutme = () => {
     <div className="lg:p-0  mt-[2px] mr-[60px] ml-[60px]">
       <div className=" sm:flex sm:flex-col  md:flex md:flex-row md:mt-9 lg:flex-row lg:h-[40rem] lg:flex lg:items-center mb-[5rem]">
         <div className=" sm:w-screen  md:flex md:justify-content md:w-[60%]  lg:w-[55%]  ">
-          <Image src="/Phoo.png" width={1000} height={800} alt="photos" className="sm:w-screen  md:w-[100%] md:h-[20rem] lg:flex lg:w-full lg:h-[45rem] lg:z-10 lg:mt-[-20rem]"></Image>
+          <Image src="/Phoo.png" width={1000} height={800} alt="photos" className="sm:w-screen  md:w-[100%] md:h-[20rem] lg:flex lg:w-full lg:h-[45rem] lg:z-10 lg:mt-[-20rem]"/>
         </div>
         <div className=" sm:flex sm:flex-col sm:w-screen  md:flex md:w-[70%] md:flex-col lg:flex lg:flex-col  lg:w-[45%] lg:ml-2 ">
           <h1 className="flex text-[2.5rem] md-text-[1rem] ">Crafting digital experiences, one line at a time.</h1>
