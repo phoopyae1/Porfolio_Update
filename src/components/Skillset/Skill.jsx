@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import data from './Skill.json';
+import Image from 'next/image';
 
 const Skill = () => {
     const card = data.skillset;
@@ -14,13 +15,13 @@ const Skill = () => {
                 <div>
                     <div className='grid grid-cols-3 w-full gap-8'>
                         {card.map((card) => (
-                            <div className='flex flex-row '>
+                            <div key={card.id} className='flex flex-row '>
                                 <div key={card.id} className="border rounded-lg mt-10 w-[30rem] p-7">
                                     {/* Rendering images using r\egular img tag */}
                                     <div className='flex flex-row gap-2'>
                                         {card.image.map((image, index) => (
-                                            <div className="flex flex-row w-100 h-30 ">
-                                                <img
+                                            <div key={index} className="flex flex-row w-100 h-30 ">
+                                                <Image
                                                     key={index}
                                                     src={image} // Assuming each item in 'image' array is a path to an image
                                                     alt={`Image ${index + 1} of card ${card.id}`}
