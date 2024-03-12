@@ -1,29 +1,65 @@
-[
+{"skillset":[
   {
     "id": 1,
-    "name": "Skill 1",
-    "image": "/React-icon.svg.png",
-    "description": "Description 1"
+    "image": [
+        "/next-js.svg",
+        "/js.webp",
+        "/CSS3_logo.svg.png"
+         ],
+    "description": "This is my old portfolio design created with Next.js, JavaScript, and pure CSS"
   },
   {
     "id": 2,
-    "name": "Skill 2",
-    "image":{
-        "first image":"/React-icon.svg.png",
-        "secong image":"/next-js.svg"
-    },
+    "image":[
+       
+       "/next-js.svg",
+        "/React-icon.svg.png"
+       
+    ],
     "description": "Description 2"
-  },
-  {
-    "id": 3,
-    "name": "Skill 3",
-    "image": "/next-js.svg",
-    "description": "Description 3"
-  },
-  {
-    "id": 4,
-    "name": "Skill 4",
-    "image": "/React-icon.svg.png",
-    "description": "Description 4"
-  }
+},
+{
+  "id": 3,
+  "image":[
+     
+     "/next-js.svg",
+      "/React-icon.svg.png"
+     
+  ],
+  "description": "Description 2"
+},
+{
+  "id": 4,
+  "image":[
+     
+     "/next-js.svg",
+      "/React-icon.svg.png"
+     
+  ],
+  "description": "Description 2"
+}
+,
+{
+  "id": 3,
+  "image":[
+     
+     "/next-js.svg",
+      "/React-icon.svg.png"
+     
+  ],
+  "description": "Description 2"
+},
+{
+  "id": 4,
+  "image":[
+     
+     "/next-js.svg",
+      "/React-icon.svg.png"
+     
+  ],
+  "description": "Description 2"
+}
 ]
+}
+
+  

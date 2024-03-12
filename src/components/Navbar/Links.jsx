@@ -36,7 +36,8 @@ const Links = () => {
         }
     ]
     return (
-        <div className="sm:flex  flex flex-row justify-between mt-5 items-center lg:pt-0 lg:pl-8 lg:pr-8 ">
+        <div className="lg:p-0 mt-[2px] mr-[60px] ml-[60px]">
+        <div className="sm:flex  flex flex-row justify-between mt-5 items-center lg:pt-0 lg:ml-8 ">
             <div className="font-bold text-[2.2rem]">
                 <h1>Porfolio</h1>
             </div>
@@ -67,6 +68,7 @@ const Links = () => {
                         </div>
                     )}
             </div>
+        </div>
         </div>
     );
 };
