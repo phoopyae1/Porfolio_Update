@@ -13,10 +13,11 @@
     "image":[
        
        "/next-js.svg",
-        "/React-icon.svg.png"
+        "/React-icon.svg.png",
+        "/Tailwind.png"
        
     ],
-    "description": "Description 2"
+    "description": "This is my new porfolio design created with Next.js, React, and Tailwind CSS"
 },
 {
   "id": 3,
@@ -58,6 +59,16 @@
      
   ],
   "description": "Description 2"
+},
+
+{"id": 5,
+"image":[
+   
+   "/next-js.svg",
+    "/React-icon.svg.png"
+   
+],
+"description": "Description 2"
 }
 ]
 }
